@@ -8,11 +8,11 @@ p {
 }
 
 p id="child" {
-	color: navy;
+	color: red;
 }
 
 p class="now" {
-	font-size: 16px;
+	font-size: 20px;
 }
 
 h1 {
