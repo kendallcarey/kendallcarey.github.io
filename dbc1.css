@@ -7,6 +7,14 @@ p {
 	font-size: 14px;
 }
 
+p id="child" {
+	color: navy;
+}
+
+p class="now" {
+	font-size: 16px;
+}
+
 h1 {
 	color: navy;
 }
