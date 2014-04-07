@@ -39,7 +39,7 @@ p {
 }
 
 h1 {
-	text-align:right;
+	position: absolute;
 }
 
 h2 {
