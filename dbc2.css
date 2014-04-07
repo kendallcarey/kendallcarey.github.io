@@ -1,0 +1,73 @@
+body {
+	vertical-align:center
+}
+
+#header {
+	padding:15px;
+	border:1.5px solid black;
+	color: red;
+	margin-bottom:10px;
+	position: relative;
+}
+
+.content_area {
+	padding: 10 px 30px 50px 70px;
+	border:2px dotted navy;
+	margin:15px;
+	float: right;
+}
+
+#sidebar {
+	padding:20px;
+	border:2px solid blue;
+	color: green;
+	margin:auto;
+	float: left;
+}
+
+#footer {
+	padding:10px;
+	border-top:2px solid black;
+	border-bottom:4px dotted navy;
+	color:blue;
+	margin:auto;
+	clear:both;
+}
+
+p {
+	text-align: center;
+}
+
+h1 {
+	text-align:right;
+}
+
+h2 {
+	text-align: center;
+}
+
+.red {
+	color: red;
+	font-weight: bold;
+}
+
+
+  a:link	{
+  	color:blue;
+  }
+  a:visited	{
+  	color: green;
+  }
+  a:hover	{
+  	color: yellow;
+  	font-size: 10px;
+  }
+  a:active	{
+  	color: orange;
+  }
+
+  img {
+  	vertical-align: center
+  	width:50%;
+  	height:50%;
+  }
