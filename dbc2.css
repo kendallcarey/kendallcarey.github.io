@@ -1,0 +1,115 @@
+body {
+	vertical-align:center
+}
+
+.site {
+	width:1020px;
+}
+
+#header {
+	padding:15px;
+	border:1.5px solid black;
+	background-color: red;
+	margin-bottom:10px;
+	position: relative;
+}
+
+#sidebar {
+	background-color: light blue;
+	padding:20px;
+	border:2px solid light green;
+	float: left;
+}
+
+.content_area {
+	padding: 10 px 30px 50px 70px;
+	border:2px dotted navy;
+	margin:15px;
+	float: right;
+}
+
+h1 {
+	position: absolute;
+	text-align: left;
+}
+
+
+#footer {
+	background-color: blue;
+	padding:10px;
+	border-top:2px solid black;
+	border-bottom:4px dotted navy;
+	margin:auto;
+	clear:both;
+}
+
+p {
+	text-align: center;
+}
+
+
+
+h2 {
+	text-align: center;
+}
+
+.red {
+	color: red;
+	font-weight: bold;
+}
+
+
+  a:link	{
+  	color:blue;
+  }
+  a:visited	{
+  	color: green;
+  }
+  a:hover	{
+  	color: yellow;
+  	font-size: 10px;
+  }
+  a:active	{
+  	color: orange;
+  }
+
+  img {
+  	vertical-align: center
+  	width:50%;
+  	height:50%;
+  } 
+
+  @media screen and (max-width: 980px) {
+  	#pagewrap {
+  		width: 94%;
+  	}
+  	#content {
+  		width:65%;
+  	}
+  	#sidebar {
+  		width:30%;
+  	}
+  }
+
+  @media screen and (max-width: 700px) {
+  	#content {
+  		width: auto;
+  		float: none;
+  	}
+  	#sidebar {
+  		width:auto;
+  		float: none;
+  	}
+  }
+
+  @media screen and (max-width: 480px) {
+  	#header {
+  		height:auto;
+  	}
+  	h1 {
+  		font-size:24px;
+  	}
+  	#sidebar {
+  		display:none;
+  	}
+  }
