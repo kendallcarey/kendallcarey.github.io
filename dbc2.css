@@ -9,36 +9,38 @@ body {
 #header {
 	padding:15px;
 	border:1.5px solid black;
-	background-color: red;
+	background-color: rgb(203, 177, 226);
 	margin-bottom:10px;
 	position: relative;
 }
 
+h1 {
+	text-align: center;
+	float: center;
+}
+
 #sidebar {
-	background-color: light blue;
-	padding:20px;
-	border:2px solid light green;
+	background-color: rgb(137, 197, 206);
+	width:200px;
+	height:850px;
+	border: 2px solid rgb(115, 115, 204);
 	float: left;
 }
 
 .content_area {
 	padding: 10 px 30px 50px 70px;
-	border:2px dotted navy;
+	border:2px solid navy;
 	margin:15px;
 	float: right;
 }
 
-h1 {
-	position: absolute;
-	text-align: left;
-}
 
 
 #footer {
-	background-color: blue;
+	background-color: rgb(133, 133, 201);
 	padding:10px;
 	border-top:2px solid black;
-	border-bottom:4px dotted navy;
+	border-bottom:4px solid navy;
 	margin:auto;
 	clear:both;
 }
@@ -61,13 +63,15 @@ h2 {
 
   a:link	{
   	color:blue;
+	text-decoration:none;
   }
   a:visited	{
   	color: green;
+	text-decoration:none;
   }
   a:hover	{
-  	color: yellow;
-  	font-size: 10px;
+  	color: navy;
+  	font-size: 15px;
   }
   a:active	{
   	color: orange;
@@ -75,41 +79,5 @@ h2 {
 
   img {
   	vertical-align: center
-  	width:50%;
-  	height:50%;
-  } 
-
-  @media screen and (max-width: 980px) {
-  	#pagewrap {
-  		width: 94%;
-  	}
-  	#content {
-  		width:65%;
-  	}
-  	#sidebar {
-  		width:30%;
-  	}
-  }
-
-  @media screen and (max-width: 700px) {
-  	#content {
-  		width: auto;
-  		float: none;
-  	}
-  	#sidebar {
-  		width:auto;
-  		float: none;
-  	}
-  }
-
-  @media screen and (max-width: 480px) {
-  	#header {
-  		height:auto;
-  	}
-  	h1 {
-  		font-size:24px;
-  	}
-  	#sidebar {
-  		display:none;
-  	}
+	width:30%;
   }
