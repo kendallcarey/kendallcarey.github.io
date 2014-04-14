@@ -87,13 +87,13 @@ h1 {
 }
 
 #sidebar {
-	background-color: rgb(137, 197, 206);
+	background-color: white;
 	width:25%;
 	height:78%;
 	border: 2px solid rgb(115, 115, 204);
 	float: left;
 	font-family: fontAwesome;
-	line-height: 30px;
+	line-height: 35px;
 	text-align: center;
 	padding:10px;
 	margin: 15px;
@@ -110,6 +110,12 @@ h1 {
 .week {
 	font-size:1.250em;
 	font-weight: bold;
+}
+
+#unit {
+	border:1.5px;
+	border-color: rgb(137, 197, 206)
+	margin:2px;
 }
 
 
