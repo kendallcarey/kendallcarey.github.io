@@ -173,6 +173,9 @@ h2 {
 
  @media screen and (max-device-width: 480px) {
   	#sidebar {
-  		float:none;
+  		float:center;
+  	}
+  	.content_area {
+  		float:center;
   	}
   } 
