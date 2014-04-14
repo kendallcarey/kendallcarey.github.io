@@ -169,3 +169,9 @@ h2 {
     src: url(font/fontawesome-webfont.woff);
     font-weight:400;
 }
+
+ @media screen and (max-device-width: 480px) {
+  	#sidebar {
+  		float:none;
+  	}
+  } 
