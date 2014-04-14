@@ -86,6 +86,10 @@ h1 {
 	font-size:2em;
 }
 
+span {
+	color:green;
+}
+
 #sidebar {
 	background-color: white;
 	width:25%;
