@@ -17,6 +17,7 @@ body {
 h1 {
 	text-align: center;
 	float: center;
+	font-size: 0.750em;
 }
 
 #sidebar {
@@ -81,3 +82,5 @@ h2 {
   	vertical-align: center
 	width:30%;
   }
+
+ 
