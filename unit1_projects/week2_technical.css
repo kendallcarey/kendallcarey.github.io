@@ -27,7 +27,7 @@ h1 {
 	border: 2px solid rgb(115, 115, 204);
 	float: left;
 	font-family: sans-serif;
-	
+
 }
 
 .content_area {
@@ -78,6 +78,5 @@ h2 {
 
   img {
   	vertical-align: center
-	width:1000px;
-	height:830px;
+	width:30%;
   }
