@@ -72,12 +72,6 @@ h2 {
 
   img {
   	vertical-align: center
-	width:20%;
-	height:10%;
-  }
-
-  @media screen and (max-device-width: 480px) {
-  	#sidebar {
-  		float:none;
-  	}
+	width:1000px;
+	height:830px;
   }
