@@ -27,6 +27,7 @@ h1 {
 	border: 2px solid rgb(115, 115, 204);
 	float: left;
 	font-family: sans-serif;
+	
 }
 
 .content_area {
@@ -34,7 +35,7 @@ h1 {
 	border:2px solid navy;
 	margin:15px;
 	float: right;
-	
+	width:66%;
 }
 
 
