@@ -166,6 +166,6 @@ img.logotext {
 
   @media screen and (max-device-width: 480px) {
   	#sidebar {
-  		float:none;
+  		float:center;
   	}
   } 
