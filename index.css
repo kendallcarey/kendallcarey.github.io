@@ -53,34 +53,51 @@ table {
 
 
 body {
-	vertical-align:center
+	display:inline-block;
 }
 
 .site {
 	width:1020px;
 }
 
-.header {
-	padding:15px;
-	border:1.5px solid black;
-	background-color: rgb(203, 177, 226);
+header {
+	padding:30px;
+	border-top:1.5px solid black;
+	border-bottom:1.5px solid black;
+	background-color: white;
 	margin-bottom:10px;
 	position: relative;
+}
+
+img.kendall {
+	height:100px;
+	width:100px;
+	float: left;
+	margin: 1em 1em 0.500em;
+	border-radius:120px;
+	position:absolute;
+	top:-10px;
 }
 
 h1 {
 	text-align: center;
 	float: center;
 	font-family: 'Allura', cursive;
+	font-size:2em;
 }
 
 #sidebar {
-	background-color: rgb(137, 197, 206);
-	width:200px;
-	height:850px;
+	background-color: white;
+	width:25%;
+	height:80%;
 	border: 2px solid rgb(115, 115, 204);
 	float: left;
-	font-family: sans-serif;
+	font-family: fontAwesome;
+	line-height: 35px;
+	text-align: center;
+	padding:10px;
+	margin: 15px;
+	display: inline-block;
 }
 
 .content_area {
@@ -91,9 +108,19 @@ h1 {
 
 }
 
+.week {
+	font-size:1.250em;
+	font-weight: bold;
+}
+
+#unit {
+	border:1.5px;
+	border-color: rgb(137, 197, 206)
+	margin:2px;
+}
 
 
-.footer {
+footer {
 	background-color: rgb(133, 133, 201);
 	padding:10px;
 	border-top:2px solid black;
@@ -105,6 +132,7 @@ h1 {
 p {
 	text-align: center;
 	font-family: sans-serif;
+	margin:5px;
 }
 
 
@@ -131,6 +159,23 @@ h2 {
 
   img {
   	vertical-align: center
-	width:1000px;
-	height:830px;
+	width:10%;
+	height:65%;
+	padding:5px;
+	display:inline;
   }
+
+@font-face {
+    font-family: fontAwesome;
+    src: url(font/fontawesome-webfont.woff);
+    font-weight:400;
+}
+
+ @media screen and (max-device-width: 480px) {
+  	#sidebar {
+  		float:center;
+  	}
+  	.content_area {
+  		float:center;
+  	}
+  } 
