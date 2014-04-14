@@ -90,7 +90,7 @@ h1 {
 	height:145%;
 	border: 2px solid rgb(115, 115, 204);
 	float: left;
-	font-family: fontAwesome;
+	font-family: Times;
 	line-height: 30px;
 	text-align: center;
 	padding:10px;
@@ -147,15 +147,17 @@ h2 {
   	color: green;
   }
 
-  img {
-  	vertical-align: center
-	width:35%;
-	height:120%;
-	padding:5px;
-  }
+  .images{
+    text-align:center;
+}
 
-@font-face {
-    font-family: fontAwesome;
-    src: url(font/fontawesome-webfont.woff);
-    font-weight:400;
+img.center {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.logotext {
+	width:30%;
+  } 
 }
