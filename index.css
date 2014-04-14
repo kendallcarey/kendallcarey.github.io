@@ -89,7 +89,7 @@ h1 {
 #sidebar {
 	background-color: white;
 	width:25%;
-	height:80%;
+	height:82%;
 	border: 2px solid rgb(115, 115, 204);
 	float: left;
 	font-family: fontAwesome;
@@ -114,8 +114,7 @@ h1 {
 }
 
 #unit {
-	border:1.5px;
-	border-color: rgb(137, 197, 206)
+	border:1.5px solid rgb(137, 197, 206);
 	margin:2px;
 }
 
