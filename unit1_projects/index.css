@@ -62,7 +62,8 @@ body {
 
 header {
 	padding:30px;
-	border:1.5px solid black;
+	border-top:1.5px solid black;
+	border-bottom:1.5px solid black;
 	background-color: white;
 	margin-bottom:10px;
 	position: relative;
