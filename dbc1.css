@@ -1,0 +1,44 @@
+body {
+	background-color: aqua;
+}
+
+p {
+	font-family: Arial;
+	font-size: 14px;
+}
+
+#child {
+	color: red;
+}
+
+.now {
+	font-size: 20px;
+}
+
+h1 {
+	color: navy;
+}
+
+h2 {
+	color: gray;
+}
+
+h3 {
+	font-weight: bold;
+}
+
+h4 {
+	font-family: serif;
+}
+
+h5 {
+	color: navy;
+}
+
+h6 {
+	font-family: sans-serif;
+}
+
+li {
+	font-size: 10px;
+}
