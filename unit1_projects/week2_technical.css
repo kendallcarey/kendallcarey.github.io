@@ -121,7 +121,7 @@ footer {
 }
 
 p {
-	text-align: center;
+	text-align: left;
 	font-family: sans-serif;
 }
 
@@ -159,5 +159,6 @@ img.center {
 
 img.logotext {
 	width:30%;
-  } 
+	margin:10px;
+  } 
 }
