@@ -50,7 +50,7 @@ h1 {
 }
 
 p {
-	text-align: center;
+	text-align: left;
 	font-family: sans-serif;
 }
 
@@ -78,5 +78,6 @@ h2 {
 
   img {
   	vertical-align: center
+  	horizontal-align: center;
 	width:30%;
   }
