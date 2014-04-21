@@ -22,7 +22,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	text-align: center;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -86,10 +86,13 @@ h1 {
 	font-size:2em;
 }
 
+span {
+	color:green;
+}
+
 #sidebar {
 	background-color: white;
 	width:25%;
-	height:80%;
 	border: 2px solid rgb(115, 115, 204);
 	float: left;
 	font-family: fontAwesome;
@@ -101,7 +104,7 @@ h1 {
 }
 
 .content_area {
-	padding: 10 px 30px 50px 70px;
+	width: 66%;
 	border:2px solid navy;
 	margin:15px;
 	float: right;
@@ -113,11 +116,11 @@ h1 {
 	font-weight: bold;
 }
 
-#unit {
-	border:1.5px;
-	border-color: rgb(137, 197, 206)
+.unit {
+	border:1.5px solid rgb(137, 197, 206);
 	margin:2px;
 }
+
 
 
 footer {
@@ -133,6 +136,7 @@ p {
 	text-align: center;
 	font-family: sans-serif;
 	margin:5px;
+	overflow:au;
 }
 
 
@@ -160,7 +164,7 @@ h2 {
   img {
   	vertical-align: center
 	width:10%;
-	height:65%;
+	height:83%;
 	padding:5px;
 	display:inline;
   }
@@ -170,12 +174,3 @@ h2 {
     src: url(font/fontawesome-webfont.woff);
     font-weight:400;
 }
-
- @media screen and (max-device-width: 480px) {
-  	#sidebar {
-  		float:center;
-  	}
-  	.content_area {
-  		float:center;
-  	}
-  } 
