@@ -123,6 +123,7 @@ span {
 }
 
 
+
 footer {
 	background-color: rgb(133, 133, 201);
 	padding:10px;
@@ -173,12 +174,3 @@ h2 {
     src: url(font/fontawesome-webfont.woff);
     font-weight:400;
 }
-
- @media screen and (max-device-width: 480px) {
-  	#sidebar {
-  		float:center;
-  	}
-  	.content_area {
-  		float:center;
-  	}
-  } 
