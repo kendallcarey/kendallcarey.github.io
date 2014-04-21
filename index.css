@@ -117,7 +117,7 @@ span {
 	font-weight: bold;
 }
 
-#unit {
+.unit {
 	border:1.5px solid rgb(137, 197, 206);
 	margin:2px;
 }
