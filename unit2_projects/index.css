@@ -122,7 +122,9 @@ span {
 	margin:2px;
 }
 
-
+#deep {
+	font-family: Times;
+}
 
 footer {
 	background-color: rgb(133, 133, 201);
