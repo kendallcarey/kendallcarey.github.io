@@ -1,0 +1,47 @@
+choir_frogs = ["Kirstin Jarchow", "Bridgette Salcido", "Andrew Koines", "Sherwood Callaway", "Josh Jeong", "Kris Shanks", "Scott Jason", "Amol Borcar", "Amelia Downs", "Brennon Williams", "Austin Bourdier", "Gregory White", "Britney Valkenburg", "Alec Ashford", "Jeff Kynaston", "Kendall Carey", "Val Sverdlov", "Matthew Kuzio", "Matias Meneses", "Danny Glover", "Phillip Crawford", "Ronald Ishak", "RJ Bernaldo", "Ryan Stack", "Jeuel Wilkerson"]
+
+def group(students)
+  groups=students.shuffle.each_slice(4).to_a
+  if groups.last.size<4
+    groups.last.each_index do |index|
+      groups[index].push(groups.last[index])
+    end
+    groups.delete_at(groups.length-1)
+  end
+  return groups
+end
+
+  
+group(choir_frogs)
+
+testcode = group(choir_frogs)
+
+if testcode.length==6
+  puts true
+else
+  puts false
+end
+
+testcode.each do |x|
+  if x.length<4
+    puts false
+  else
+    puts true
+  end
+end
+
+testcode.each do |x|
+  if x.length>5
+    puts false
+  else
+    puts true
+  end
+end
+
+test=group(choir_frogs).zip()
+
+if test==25
+  puts true
+else
+  puts false
+end
