@@ -91,38 +91,64 @@
 <p id="center">
 Or Regex, which you have probably heard them referred to as, is a special text string describing a search pattern. This brief blog is not meant to teach you how to use regex efficiently but hopefully can be used as a quick reference of Regex:</p>
 <ul>
-<li>[abc]		A single character of: a, b, or c</li>
-<li>[^abc]		Any single character except: a, b, or c</li>
-<li>[a-z]		Any single character in the range a-z</li>
-<li>[a-zA-Z]	Any single character in the range a-z or A-Z</li>
-<li>^			Start of line</li>
-<li>$			End of line</li>
-<li>\A			Start of string</li>
-<li>\z			End of string</li>
-<li>.			Any single character except line breaks</li>
-<li>\s			Any whitespace character</li>
-<li>\S			Any non-whitespace character</li>
-<li>\d			Any digit</li>
-<li>\D			Any non-digit</li>
-<li>\w			Any word character (letter, number, underscore)</li>
-<li>\W			Any non-word character</li>
-<li>\b			Any word boundary</li>
-<li>(...)		Capture everything enclosed</li>
-<li>(a|b)		a or b</li>
-<li>a?			Zero or one of a</li>
-<li>a*			Zero or more of a</li>
-<li>a+			One or more of a</li>
-<li>a{3}		Exactly 3 of a</li>
-<li>a{3,}		3 or more of a</li>
-<li>a{3,6}		Between 3 and 6 of a</li>
-<li>g 			global</li>
-<li>[s/S/]		matches any character including line breaks</li>
-<li>% 			string</li>
+<li>[abc]</li>		
+<li>A single character of: a, b, or c</li>
+<li>[^abc]</li>		
+<li>Any single character except: a, b, or c</li>
+<li>[a-z]</li>		
+<li>Any single character in the range a-z</li>
+<li>[a-zA-Z]</li>	
+<li>Any single character in the range a-z or A-Z</li>
+<li>^</li>			
+<li>Start of line</li>
+<li>$</li>			
+<li>End of line</li>
+<li>\A</li>			
+<li>Start of string</li>
+<li>\z</li>			
+<li>End of string</li>
+<li>.</li>			
+<li>Any single character except line breaks</li>
+<li>\s</li>			
+<li>Any whitespace character</li>
+<li>\S</li>			
+<li>Any non-whitespace character</li>
+<li>\d</li>			
+<li>Any digit</li>
+<li>\D</li>			
+<li>Any non-digit</li>
+<li>\w</li>			
+<li>Any word character (letter, number, underscore)</li>
+<li>\W</li>			
+<li>Any non-word character</li>
+<li>\b</li>			
+<li>Any word boundary</li>
+<li>(...)</li>		
+<li>Capture everything enclosed</li>
+<li>(a|b)</li>		
+<li>a or b</li>
+<li>a?</li>			
+<li>Zero or one of a</li>
+<li>a*</li>			
+<li>Zero or more of a</li>
+<li>a+</li>			
+<li>One or more of a</li>
+<li>a{3}</li>		
+<li>Exactly 3 of a</li>
+<li>a{3,}</li>		
+<li>3 or more of a</li>
+<li>a{3,6}</li>		
+<li>Between 3 and 6 of a</li>
+<li>g</li> 			
+<li>global</li>
+<li>[s/S/]</li>		
+<li>matches any character including line breaks</li>
+<li>%</li> 			
+<li>string</li>
 <li>options: i case insensitive, m make dot match newlines, x ignore whitespace in regex, o perform #{...} substitutions only once</li>
+<li>all escaped characters start with \</li>
 
-<p>all escaped characters start with \</p>
-
-<p>So breaking down \b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b uses the any word boundaries, any character a to z and 0 to 9 any single character adds it to a string, adds the @, takes any character a to z, 0 to 9  then adds a ‘.’ and uses between 2 and 4 characters between a to z. This searches for an email address. Any email address. Pretty cool right? Fun stuff.
+<p id="center">So breaking down \b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b uses the any word boundaries, any character a to z and 0 to 9 one or more characters adds it to a string, adds the @, takes any character a to z, 0 to 9  then adds a ‘.’ and uses between 2 and 4 characters between a to z. This searches for an email address. Any email address. Pretty cool right? Fun stuff.
 </p>
 			</div>
 			<footer>
