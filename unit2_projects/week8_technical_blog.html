@@ -86,14 +86,45 @@
 			</ol>
 		</div>
 			<div class="content_area">
-				<img src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash2/t1.0-9/577062_607947327193_301449043_n.jpg"/>
-				<p><em>Photo by me!</em></p>
-				<p> </p>
-				<p>"The most beautiful thing we can experience is the mysterious. </br>It is the source of all true art and all science. </br>He to whom this emotion is a stranger, who can no longer pause to wonder </br> and stand rapt in awe, is as good as dead: his eyes are closed." </br>Einstein, Albert in <em>Living Philosophies</em></p>
-				<p></p>
-			</div>
-				
+				<img src="http://www.devclothes.com/shop/images/D/Phone-Digits.jpg"/>
+				<h2>Regular Expressions</h2>
+<p id="center">
+Or Regex, which you have probably heard them referred to as, is a special text string describing a search pattern. This brief blog is not meant to teach you how to use regex efficiently but hopefully can be used as a quick reference of Regex:</p>
+<ul>
+<li>[abc]		A single character of: a, b, or c</li>
+<li>[^abc]		Any single character except: a, b, or c</li>
+<li>[a-z]		Any single character in the range a-z</li>
+<li>[a-zA-Z]	Any single character in the range a-z or A-Z</li>
+<li>^			Start of line</li>
+<li>$			End of line</li>
+<li>\A			Start of string</li>
+<li>\z			End of string</li>
+<li>.			Any single character except line breaks</li>
+<li>\s			Any whitespace character</li>
+<li>\S			Any non-whitespace character</li>
+<li>\d			Any digit</li>
+<li>\D			Any non-digit</li>
+<li>\w			Any word character (letter, number, underscore)</li>
+<li>\W			Any non-word character</li>
+<li>\b			Any word boundary</li>
+<li>(...)		Capture everything enclosed</li>
+<li>(a|b)		a or b</li>
+<li>a?			Zero or one of a</li>
+<li>a*			Zero or more of a</li>
+<li>a+			One or more of a</li>
+<li>a{3}		Exactly 3 of a</li>
+<li>a{3,}		3 or more of a</li>
+<li>a{3,6}		Between 3 and 6 of a</li>
+<li>g 			global</li>
+<li>[s/S/]		matches any character including line breaks</li>
+<li>% 			string</li>
+<li>options: i case insensitive, m make dot match newlines, x ignore whitespace in regex, o perform #{...} substitutions only once</li>
 
+<p>all escaped characters start with \</p>
+
+<p>So breaking down \b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b uses the any word boundaries, any character a to z and 0 to 9 any single character adds it to a string, adds the @, takes any character a to z, 0 to 9  then adds a ‘.’ and uses between 2 and 4 characters between a to z. This searches for an email address. Any email address. Pretty cool right? Fun stuff.
+</p>
+			</div>
 			<footer>
 				<h2><a href="https://facebook.com/kendall.carey"/>Facebook Me!</a></h2>
 			</footer>
