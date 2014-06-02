@@ -1,0 +1,73 @@
+<div id="sidebar">
+				<ol>
+					<div class="unit">
+						<li class="week">Week 1 projects</li>
+						<ul>
+							<li>
+								<a href="https://kendallcarey.github.io/unit1_projects/dbc1.html">DBC1</a>
+							</li>
+							<li>
+								<a href="https://kendallcarey.github.io/unit1_projects/dbc2.html">DBC2</a>
+							</li>
+							<li>
+								<a href="https://kendallcarey.github.io/unit1_projects/wireframe_sites.html">Wireframe Sites</a>
+							</li>
+							<li>
+								<a href="https://kendallcarey.github.io/unit1_projects/comparing_websites.html">Comparing Websites</a>
+							</li>
+							<li>
+								<a href="https://kendallcarey.github.io/unit1_projects/week2_cultural_blog.html">Cultural Blog</a>
+							</li>
+						</ul>
+					</div>
+					<div class="unit">
+					<li class="week">Week 2 projects</li>
+						<ul>
+							<li><a href="https://kendallcarey.github.io/unit1_projects/week2_technical.html">Technical Blog</a></li>
+							<li><a href="https://scontent-a-lax.xx.fbcdn.net/hphotos-prn2/t1.0-9/1509002_686411733893_2960384484385621733_n.jpg">Website Wireframe</a></li>
+							<li><a href="https//kendallcarey.github.io/unit1_projects/Pair_programming_challenge1.html">Pair Programming</a></li>
+							<li><a href="https://gist.github.com/kendallcarey/10621479">Gist2</a></li>
+						</ul>
+					</div>
+					<div class="unit">
+						<li class="week">Week 3 projects</li>
+						<ul>
+							<li><a href="https://kendallcarey.github.io/unit1_projects/week3_technical.html">Technical Blog #2</a></li>
+							<li><a href="https://kendallcarey.github.io/unit1_projects/week3_cultural_blog.html">Cultural Blog</a></li>
+					</div>
+					<div class="unit">
+						<li class="week">Week 4 projects</li>
+						<ul>
+							<li><a href="https://kendallcarey.github.io/unit2_projects/week1_technical_blog.html">Technical Blog #3</a></li>
+							<li><a href="https://kendallcarey.github.io/unit2_projects/week1_cultural_blog.html">Cultural Blog</a></li>
+						</ul>
+					<div class="unit">
+						<li class="week">Week 5 projects</li>
+						<ul>
+							<li><a href="https://kendallcarey.github.io/unit2_projects/week2_technical_blog.html">
+							Technical Blog #4</a></li>
+							<li><a href="https://kendallcarey.github.io/unit2_projects/week2_cultural_blog.html">
+							Cultural Blog</a></li>
+						</ul>
+						<div class="unit">
+							<li class="week">Week 6 projects</li>
+							<ul>
+								<li><a href="https://kendallcarey.github.io/unit2_projects/week3_technical_blog.html">Technical Blog</a></li>
+								<li><a href="https://kendallcarey.github.io/unit2_projects/week3_cultural_blog.html">Cultural Blog</a></li>
+							</ul>
+						</div>
+						<div class="unit">
+				<li class="week">Week 7 projects</li>
+				<ul>
+					<li><a href="https://kendallcarey.github.io/unit2_projects/week7_technical_blog.html">Tech blog #5</a></li>
+					<li><a href="https://kendallcarey.github.io/unit2_projects/week7_cultural_blog.html">Cultural Blog</a></li>
+				</ul>
+				</div>
+				<div class="unit">
+					<li class="week">Week 8 projects</li>
+					<ul>
+						<li><a href="https://kendallcarey.github.io/unit2_projects/week8_technical_blog.html">Tech blog #6</a></li>
+						<li><a href="https://kendallcarey.github.io/unit2_projects/week8_cultural_blog.html">Cultural Blog</a></li>
+					</ul>
+			</ol>
+		</div>
