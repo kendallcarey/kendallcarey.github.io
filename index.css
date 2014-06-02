@@ -138,6 +138,18 @@ img.nav_logo{
 a {
 	text-decoration: none;
 }
+a.portfolio {
+	color:yellow;
+}
+a.contact {
+	color:yellow;
+}
+a.home {
+	color:yellow;
+}
+a.bloggety {
+	color:yellow;
+}
 
 a.navlink:link {
 		color:#1a1a1a;	
