@@ -53,6 +53,7 @@ head{
 }*/
 .navbar {
 	display: inline-block;
+	color:white;
 }
 
 .home {
@@ -139,16 +140,16 @@ a {
 	text-decoration: none;
 }
 a.portfolio {
-	color:yellow;
+	font-color:yellow;
 }
 a.contact {
-	color:yellow;
+	font-color:yellow;
 }
 a.home {
-	color:yellow;
+	font-color:yellow;
 }
 a.bloggety {
-	color:yellow;
+	font-color:yellow;
 }
 
 a.navlink:link {
@@ -258,9 +259,8 @@ img.kendall {
 }*/
 
 .content_area {
-	width: 66%;
-	margin:15px;
-	float: middle;
+	width: 88%;
+	float: right;
 
 }
 
@@ -296,6 +296,7 @@ h2 {
   	position:relative;
   	vertical-align: center;
 	width:83%;
-	padding:.5em;
+	padding:1em;
 	display:inline;
+	margin: auto;
   }
