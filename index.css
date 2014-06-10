@@ -138,18 +138,8 @@ img.nav_logo{
 }
 a {
 	text-decoration: none;
-}
-a.portfolio {
-	font-color:yellow;
-}
-a.contact {
-	font-color:yellow;
-}
-a.home {
-	font-color:yellow;
-}
-a.bloggety {
-	font-color:yellow;
+	color:transparent;
+	
 }
 
 a.navlink:link {
@@ -161,8 +151,13 @@ a.navlink:link {
 		float: left;
 }
 
-a.navlink:hover {
+a:hover {
+	background-color:black;
+	opacity:0.7;
+	color:white;
+
 }
+
 
 body {
 	line-height: 1;
